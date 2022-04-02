@@ -4,7 +4,7 @@
 {
 const unit = 0.25;
 const ConcreteQuantity = 0.45
-const result = Math.ceil(ConcreteQuantity / unit) * unit
+const result = ConcreteQuantity >= 0.75 ? Math.ceil(ConcreteQuantity / unit) * unit : 0.75;
 console.log(result);
 }
 
@@ -16,3 +16,5 @@ let result = Math.ceil(budget / ConcretePrice);
 
 console.log(`限界打設数量は${result}m^3です。`);
 }
+
+
