@@ -13,8 +13,7 @@ console.log(result);
 //　予算の算定　限界打設数量を求める。
 const budget = 5498783;
 const ConcretePrice = 20000;
-
-let result = Math.floor(budget / ConcretePrice);
+let result = Math.ceil(budget / ConcretePrice);
 
 console.log(`限界打設数量は${result}m^3です。`);
 }
