@@ -3,9 +3,8 @@
 	　　0.25刻みで数字が換算される。全て繰上げで換算される。 ex) 1.68：1.75, 0.85:1.00  */
 {
 const unit = 0.25;
-const ConcreteQuantity = 46.32
-let result = Math.ceil(ConcreteQuantity / unit) * unit;
-
+const ConcreteQuantity = 0.45
+const result = Math.ceil(ConcreteQuantity / unit) * unit
 console.log(result);
 }
 
