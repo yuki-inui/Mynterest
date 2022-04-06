@@ -18,3 +18,21 @@ for(let i = 1; i < 301; i++){
 }
 console.log(count);
 }
+
+{
+  
+  
+  let SumNumbers = (n) => {
+    let sum = 0;
+    while(n > 0){
+      sum += n % 10;
+      n /= 10;
+    }
+    return sum;
+  };
+  console.log(Math.floor(SumNumbers(1234))); //why
+}
+
+{
+  
+}
