@@ -34,5 +34,12 @@ console.log(count);
 }
 
 {
-  
-}
+  function factorial(num) {
+    let i = 1;
+    for(let j = 1; j <= num; j++){
+      i *= j;
+    }
+    return i;
+  }
+  console.log(factorial(12));
+  }
