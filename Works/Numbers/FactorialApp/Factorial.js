@@ -7,12 +7,12 @@ let fractorial = (num) => {
 };
 
 
-const EveryNumber = (fractorial(n)) => {
+const EveryNumber = (fractorial) => {
   let sum = 0;
-  while(fractorial(n) > 0){
-    sum += fractorial(n) % 10;
-    fractorial(n) /= 10;
+  while(fractorial > 0){
+    sum += fractorial % 10;
+    fractorial /= 10;
   }
   return sum;
 };
-
+console.log(Math.ceil(EveryNumber(fractorial(12))));
