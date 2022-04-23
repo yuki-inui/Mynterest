@@ -16,4 +16,4 @@ const EveryNumber = (fractorial) => {
   return sum;
 };
 console.log(fractorial(10));
-console.log((EveryNumber(fractorial(12))));
+console.log((EveryNumber(fractorial(10))));
