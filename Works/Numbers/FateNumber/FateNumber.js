@@ -13,4 +13,4 @@ if(AddEveryParts >= 10){
   console.log("Over10");
 }
 
-console.log(AddEveryParts(1235));
+console.log(AddEveryParts(19990128));
