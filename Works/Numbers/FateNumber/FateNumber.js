@@ -1,4 +1,3 @@
-const { convertCompilerOptionsFromJson } = require("typescript");
 
 // 格桁の数字を足す
 const AddEveryParts = (num) => {
