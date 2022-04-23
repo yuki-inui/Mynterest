@@ -1,3 +1,5 @@
+const { convertCompilerOptionsFromJson } = require("typescript");
+
 // 格桁の数字を足す
 const AddEveryParts = (num) => {
     let sum = 0;
@@ -9,8 +11,5 @@ const AddEveryParts = (num) => {
   };
 
 // もし格桁の合計１０より大きかったら別の処理する
-if(AddEveryParts >= 10){
-  console.log("Over10");
-}
 
-console.log(AddEveryParts(19990128));
+console.log(AddEveryParts(234456));
