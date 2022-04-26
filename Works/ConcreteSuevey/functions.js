@@ -5,6 +5,7 @@
 const unit = 0.25;
 const ConcreteQuantity = 7.87
 const result = ConcreteQuantity >= 0.75 ? Math.ceil(ConcreteQuantity / unit) * unit : 0.75;
+result.toFixed(2);
 console.log(result);
 }
 
