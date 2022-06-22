@@ -28,3 +28,9 @@ for(let i = 1; i < 101; i++){
 }
 
 console.log(33);
+
+{
+  let x = 1023;
+  const binary = x.toString(2);
+  console.log(binary);
+}
